@@ -1,0 +1,78 @@
+/* Copyright (C) 2016 9_OPZ #Certified CoderZ
+ * GNU GENERAL PUBLIC LICENSE
+ * BiZ9 Framework
+ * BASHRC DOQBOX
+ */
+### Install DirectionZ_START ##
+Add the lines below to the bottom of your .bashrc aka system config file.
+### Install DirectionZ_END ##
+
+### NODE JS START ###
+export NODE_ENV=development
+### NODE JS END ###
+
+### KEY SHORTCUTZ START ###
+source ${HOME}/www/doqbox/toolz/shortcutz/doqbox_bashrc
+### KEY SHORTCUTZ END ###
+### USER DIR START ###
+export BIZ9_HOME=${HOME}/www/doqbox/biz9
+export BIZ9_PROJECTZ=${HOME}/www/projectz
+
+export BIZ9_MOBILE_DEPLOY_IP=0.0.0.0
+export BIZ9_BOX_192=0.0.0.0
+export BIZ9_BOX_169=0.0.0.0
+export BIZ9_BOX_168=0.0.0.0
+export BIZ9_BOX_213=0.0.0.0
+
+export BIZ9_MOBILE_DEPLOY_LOCATION='/home/admin/www/168/service/public/uploads'
+export BIZ9_MOBILE_DOWNLOAD_URL="https://168-service.bossappz.net/uploads"
+export BIZ9_MOBILE_DEPLOY_LOC=/home/admin/www/168/service/public/uploads
+export BIZ9_MOBILE_AWS_KEY_PEM=~/www/projectz/168/service/other/aws/ec2_key/168.pem
+
+export BIZ9_MOBILE_APP_KEY_STORE_PASSWORD="12345678"
+export BIZ9_MOBILE_APP_RELEASE_AAB="platforms/android/app/build/outputs/bundle/release/app-release.aab"
+export BIZ9_MOBILE_APP_DEBUG_APK="platforms/android/app/build/outputs/apk/debug/app-debug.apk"
+export BIZ9_MOBILE_APP_BUNDLE_RELEASE="platforms/android/app/build/outputs/bundle/release/app-release.aab"
+export BIZ9_MOBILE_KEY_STORE="other/cordova/android/keystore/my-release-key.keystore"
+export BIZ9_MOBILE_CONFIG_FILE="other/cordova/config/config.xml"
+export BIZ9_MOBILE_ZIPALIGN_DIR=~/www/doqbox/toolz/android/cmdline-tools/bin/build-tools/33.0.2
+
+alias 9_go_home='cd ${BIZ9_HOME}/www'
+alias 9_go_downloadz='cd ${HOME}/Downloads';
+alias 9_go_documents='cd ${HOME}/Documents';
+alias 9_go_media='cd ${HOME}/media';
+alias 9_go_core='cd ${BIZ9_HOME}/biz9-core/src/unstable';
+alias 9_go_website='cd ${BIZ9_HOME}/biz9-website/src/unstable';
+alias 9_go_cms='cd ${BIZ9_HOME}/biz9-cms/src/unstable';
+alias 9_go_mobile='cd ${BIZ9_HOME}/biz9-mobile/src/unstable';
+alias 9_go_service='cd ${BIZ9_HOME}/biz9-service/src/unstable';
+alias 9_go_test='cd ${BIZ9_HOME}/biz9-test/src/unstable';
+alias 9_go_docz='cd ${BIZ9_HOME}/biz9-docz/src/unstable';
+alias 9_go_scriptz='cd ${BIZ9_HOME}/biz9-scriptz/src/unstable';
+alias 9_go_push='cd ${BIZ9_HOME}/biz9-scriptz/src/push';
+alias 9_go_vendor='cd ${BIZ9_HOME}/biz9-vendor/src/unstable';
+alias 9_go_change_request='cd ${BIZ9_HOME}/biz9-change-request/src/unstable';
+alias 9_go_vendor_payment='cd ${BIZ9_HOME}/biz9-vendor-payment/src/unstable';
+alias 9_go_workshop='cd ${BIZ9_HOME}/biz9-workshop/src/unstable';
+alias 9_go_opz='cd ${HOME}/www/opz';
+alias 9_go_doqbox='cd ${HOME}/www/doqbox';
+alias 9_go_biz='cd ${HOME}/www/doqbox/biz9';
+alias 9_go_keyboard_shortcutz='vi ${HOME}/www/doqbox/toolz/shortcutz/doqbox_bashrc';
+alias 9_go_bashrc='vi ${HOME}/.bashrc';
+alias 9_go_mobile_config='vi www/scripts/biz9-mobile/scriptz/config.js';
+### USER DIR END ###
+
+### ANDROID SDK START ###
+export JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk-amd64
+export PATH=${PATH}:"/usr/lib/jvm/java-11-openjdk-amd64/bin"
+export ANDROID_HOME=~/www/doqbox/toolz/android/cmdline-tools/bin
+export ANDROID_SDK_ROOT=~/www/doqbox/toolz/android/cmdline-tools/bin
+export ANDROID_BUILD_TOOLS=~/www/doqbox/toolz/android/build-tools/android-13
+export ANDROID_PLATFORM=~/www/doqbox/toolz/android/platform/android-13
+export PATH=${PATH}:${ANDROID_SDK_ROOT}:${ANDROID_BUILD_TOOLS}:${ANDROID_BUILD_TOOLS}
+export sdk_root=${ANDROID_HOME}
+export GRADLE_HOME=/opt/gradle
+export PATH=${PATH}:${GRADLE_HOME}/bin
+export ORG_GRADLE_PROJECT_cdvMinSdkVersion=26
+### ANDROID SDK END ###
+
